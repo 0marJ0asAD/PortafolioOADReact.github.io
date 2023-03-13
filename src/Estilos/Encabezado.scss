@@ -1,0 +1,137 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+    /* Encabezado - <header> */
+
+    .Encabezado{
+        video{
+            height: 100%;
+            width: 100%;
+        }
+
+        .Datos{
+            position: absolute;
+            top: 4vw;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            #CV-Curriculum{
+                font-size: 3vw;
+            }
+            img{
+                height: 23vw;
+                width: 23vw;
+                border-radius: 15vw;
+            }
+            #MiNombre{
+                font-size: 3vw;
+            }
+            #Profesión-DW{
+                font-size: 3vw;
+                transition: 4s;
+                color: aqua;
+            }
+            #Profesión-DW:hover{
+                cursor: pointer;
+                transform: scale(1.5);
+                transition: 4s;
+            }
+            #Profesión-AdD{
+                font-size: 3vw;
+                color: pink;
+            }
+            #Profesión-AdD:hover{
+                cursor: pointer;
+                transform: scale(1.5);
+                transition: 4s;
+            }
+            .Descargas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    display: flex;
+                    border-radius: 25px;
+                    padding: 10px;
+                    background-color: orangered;
+                }
+                button:hover{
+                    background-color: orange;
+                }
+                a{
+                    font-size: 2vw;
+                    color: white;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 767px){
+    
+    /* Encabezado */
+
+    .Encabezado{
+        video{
+            height: 100%;
+            width: 100%;
+        }
+        
+        .Datos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            top: 0px;
+            #CV-Curriculum{
+                font-size: 4vw;
+            }
+            img{
+                height: 28vw;
+                width: 28vw;
+                border-radius: 15vw;
+            }
+            #MiNombre{
+                font-size: 4vw;
+            }
+            #Profesión-DW{
+                font-size: 4vw;
+            }
+            #Profesión-AdD{
+                font-size: 4vw;
+            }
+            .Descargas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                button{
+                    border-radius: 25px;
+                    display: flex;
+                    padding: 0px;
+                    background-color: orangered;
+                }
+                button:hover{
+                    background-color: yellow;
+                }
+                a{
+                    font-size: 5vw;
+                    color: white;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+
+}

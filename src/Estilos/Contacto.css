@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Contacto, Formulario y RS - <aside> <form> <small> */
+  .Formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Formulario label {
+    padding: 20px;
+    font-size: 2.5vw;
+  }
+  .Formulario input {
+    padding: 2vw;
+    font-size: 2vw;
+  }
+  .Formulario textarea {
+    font-size: 2.5vw;
+    padding: 20px;
+  }
+  .Formulario .BotónDeEnvio {
+    padding: 20px;
+  }
+  .Formulario .BotónDeEnvio button {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: orange;
+    font-size: 2vw;
+  }
+  .Formulario .BotónDeEnvio button:hover {
+    cursor: pointer;
+    background-color: orangered;
+  }
+  .RedesSociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .RedesSociales small {
+    padding: 20px;
+    font-size: 2vw;
+    color: white;
+  }
+  .RedesSociales img:hover {
+    background-color: red;
+  }
+}
+
+/*# sourceMappingURL=Contacto.css.map */

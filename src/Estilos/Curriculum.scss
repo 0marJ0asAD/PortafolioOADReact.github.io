@@ -1,0 +1,101 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+    /* Curriculum - <section> */
+
+    .Curriculum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        #TextoCV{
+            padding: 20px;
+        }
+
+        .SecciónCurriculumOne{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .PrimerInstituto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                color: white;
+
+                h2{
+                    color: white;
+                }
+
+                em{
+                    color: aquamarine;
+                }
+
+                b{
+                    color: white;
+                }
+
+            }
+
+            .ServicioyPracticas{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                color: white;
+                border: 1px solid white;
+
+                em{
+                    color: aquamarine;
+                }
+
+            }
+
+        }
+
+        .SecciónCurriculumTwo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+
+            em{
+                color: aquamarine;
+            }
+
+            .BootCampEdC{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+
+                a:hover{
+                    color: aquamarine;
+                }
+
+            }
+
+            .Autodidacta{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 767px){}

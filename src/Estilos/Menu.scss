@@ -1,0 +1,19 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+
+    /* Menu - <main> */
+
+    .Menu{
+        background-color: rgb(37, 75, 37);
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .Menu{
+        background-color: rgb(37, 75, 37);
+        padding: 20px;
+    }
+}

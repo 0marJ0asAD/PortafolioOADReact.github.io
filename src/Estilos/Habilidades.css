@@ -1,0 +1,166 @@
+/* Responsive Design */
+@media (min-width: 768px) {
+  .Habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .Habilidades .MisHabilidades {
+    padding: 20px;
+  }
+  .Habilidades .MisHabilidades b {
+    font-size: 2vw;
+    color: white;
+  }
+  .Habilidades .HabilidadesParte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Habilidades .HabilidadesParte1 b {
+    font-size: 2.5vw;
+  }
+  .Habilidades .HabilidadesParte1 img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftWord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftWord b {
+    color: blue;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftExcel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftExcel b {
+    color: green;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftPowerPoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftPowerPoint b {
+    color: orange;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftPowerPoint img {
+    height: 13vw;
+    width: 13vw;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftAccess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte1 .MicrosoftAccess b {
+    color: red;
+  }
+  .Habilidades .HabilidadesParte2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Habilidades .HabilidadesParte2 b {
+    font-size: 2.5vw;
+  }
+  .Habilidades .HabilidadesParte2 img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .Habilidades .HabilidadesParte2 .HTML {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte2 .HTML b {
+    color: orangered;
+  }
+  .Habilidades .HabilidadesParte2 .CSS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte2 .CSS b {
+    color: blue;
+  }
+  .Habilidades .HabilidadesParte2 .SASS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte2 .SASS b {
+    color: rosybrown;
+  }
+  .Habilidades .HabilidadesParte2 .JavaScript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte2 .JavaScript b {
+    color: yellow;
+  }
+  .Habilidades .HabilidadesParte3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Habilidades .HabilidadesParte3 b {
+    font-size: 2.5vw;
+  }
+  .Habilidades .HabilidadesParte3 img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .Habilidades .HabilidadesParte3 .React-JS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte3 .React-JS b {
+    color: aqua;
+  }
+  .Habilidades .HabilidadesParte3 .Python {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte3 .Python b {
+    color: rgb(0, 253, 169);
+  }
+  .Habilidades .HabilidadesParte3 .SQL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte3 .SQL b {
+    color: rgb(255, 0, 255);
+  }
+  .Habilidades .HabilidadesParte3 .PHP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Habilidades .HabilidadesParte3 .PHP b {
+    color: rgb(74, 8, 180);
+  }
+}
+
+/*# sourceMappingURL=Habilidades.css.map */

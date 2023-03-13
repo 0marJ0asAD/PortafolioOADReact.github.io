@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Encabezado - <header> */
+  .Encabezado video {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado .Datos {
+    position: absolute;
+    top: 4vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Encabezado .Datos #CV-Curriculum {
+    font-size: 3vw;
+  }
+  .Encabezado .Datos img {
+    height: 23vw;
+    width: 23vw;
+    border-radius: 15vw;
+  }
+  .Encabezado .Datos #MiNombre {
+    font-size: 3vw;
+  }
+  .Encabezado .Datos #Profesión-DW {
+    font-size: 3vw;
+    transition: 4s;
+    color: aqua;
+  }
+  .Encabezado .Datos #Profesión-DW:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 4s;
+  }
+  .Encabezado .Datos #Profesión-AdD {
+    font-size: 3vw;
+    color: pink;
+  }
+  .Encabezado .Datos #Profesión-AdD:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 4s;
+  }
+  .Encabezado .Datos .Descargas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Encabezado .Datos .Descargas button {
+    display: flex;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: orangered;
+  }
+  .Encabezado .Datos .Descargas button:hover {
+    background-color: orange;
+  }
+  .Encabezado .Datos .Descargas a {
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Encabezado .Datos .Descargas a:hover {
+    color: black;
+  }
+}
+@media (max-width: 767px) {
+  /* Encabezado */
+  .Encabezado video {
+    height: 100%;
+    width: 100%;
+  }
+  .Encabezado .Datos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+  }
+  .Encabezado .Datos #CV-Curriculum {
+    font-size: 4vw;
+  }
+  .Encabezado .Datos img {
+    height: 28vw;
+    width: 28vw;
+    border-radius: 15vw;
+  }
+  .Encabezado .Datos #MiNombre {
+    font-size: 4vw;
+  }
+  .Encabezado .Datos #Profesión-DW {
+    font-size: 4vw;
+  }
+  .Encabezado .Datos #Profesión-AdD {
+    font-size: 4vw;
+  }
+  .Encabezado .Datos .Descargas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Encabezado .Datos .Descargas button {
+    border-radius: 25px;
+    display: flex;
+    padding: 0px;
+    background-color: orangered;
+  }
+  .Encabezado .Datos .Descargas button:hover {
+    background-color: yellow;
+  }
+  .Encabezado .Datos .Descargas a {
+    font-size: 5vw;
+    color: white;
+    text-decoration: none;
+  }
+  .Encabezado .Datos .Descargas a:hover {
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=Encabezado.css.map */

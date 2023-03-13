@@ -1,0 +1,150 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+
+    /* Descripción - <section> */
+
+    .Detalles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        #SobreMí-EtiquetaB{
+            font-size: 2.8vw;
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        #LoremIpsum{
+            font-size: 1.5vw;
+            color: white;
+        }
+
+    }
+
+    .DatosEIntereses{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .TextoDatos{
+            b{
+                font-size: 2.8vw;
+                color: white;
+            }
+        }
+
+        .DatosPersonales{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-size: 1.7vw;
+            b{
+                color: aquamarine;
+            }
+            label{
+                color: white;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+            a:hover{
+                color: aquamarine;
+            }
+        }
+
+        .Intereses{
+            b{
+                font-size: 2.8vw;
+                color: white;
+            }
+        }
+
+        .MisIntereses{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.7vw;
+            b{
+                color: aquamarine;
+            }
+            img{
+                height: 75px;
+                width: 75px;
+            }
+            .Computación{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                cursor: pointer;
+                transition: 4s;
+            }
+
+            .Computación:hover{
+                transform: scale(1.5);
+                transition: 4s;
+            }
+
+            .Evangelio{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                cursor: pointer;
+                transition: 4s;
+
+            }
+
+            .Evangelio:hover{
+                transform: scale(1.5);
+                transition: 4s;
+            }
+
+            .VídeoJuegos{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                transition: 4s;
+
+            }
+
+            .VídeoJuegos:hover{
+                cursor: pointer;
+                transform: scale(1.5);
+                transition: 4s;
+            }
+
+        }
+
+        .BotónDescargaCV{
+            padding: 15px;
+            button{
+                background-color: orangered;
+                border-radius: 25px;
+                padding: 10px;
+            }
+            button:hover{
+                background-color: orange;
+            }
+            a{
+                font-size: 2vw;
+                color: white;
+                text-decoration: none;
+            }
+            a:hover{
+                color: black;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 767px){}

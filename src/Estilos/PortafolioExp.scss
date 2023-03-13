@@ -1,0 +1,88 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+
+    /* Portafolio o Experiencia - <section> */
+
+    .Experiencia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Portafolio-Experiencia{
+            padding: 20px;
+        }
+
+        .SecciónExperiencia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                height: 15vw;
+                width: 15vw;
+            }
+
+            .ExperienciaOne{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+
+                img{
+                    margin: 5%;
+                    transition: 4s;
+                }
+
+            }
+
+            .ExperienciaOne:hover{
+                transform: scale(2);
+                transition: 4s;
+            }
+
+            .ExperienciaTwo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                img{
+                    margin: 5%;
+                    transition: 4s;
+                }
+
+            }
+
+            .ExperienciaTwo:hover{
+                transform: scale(2);
+                transition: 4s;
+            }
+
+            .ExperienciaThree{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 1px solid white;
+                transition: 4s;
+
+                img{
+                    height: 25%;
+                    margin: 5%;
+                }
+
+            }
+
+            .ExperienciaThree:hover{
+                transform: scale(1.4);
+                transition: 4s;
+            }
+
+        }
+
+    }
+
+}

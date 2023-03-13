@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Curriculum - <section> */
+  .Curriculum {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .Curriculum #TextoCV {
+    padding: 20px;
+  }
+  .Curriculum .SecciónCurriculumOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Curriculum .SecciónCurriculumOne .PrimerInstituto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    color: white;
+  }
+  .Curriculum .SecciónCurriculumOne .PrimerInstituto h2 {
+    color: white;
+  }
+  .Curriculum .SecciónCurriculumOne .PrimerInstituto em {
+    color: aquamarine;
+  }
+  .Curriculum .SecciónCurriculumOne .PrimerInstituto b {
+    color: white;
+  }
+  .Curriculum .SecciónCurriculumOne .ServicioyPracticas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+  }
+  .Curriculum .SecciónCurriculumOne .ServicioyPracticas em {
+    color: aquamarine;
+  }
+  .Curriculum .SecciónCurriculumTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .Curriculum .SecciónCurriculumTwo em {
+    color: aquamarine;
+  }
+  .Curriculum .SecciónCurriculumTwo .BootCampEdC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+  }
+  .Curriculum .SecciónCurriculumTwo .BootCampEdC a {
+    color: white;
+    text-decoration: none;
+  }
+  .Curriculum .SecciónCurriculumTwo .BootCampEdC a:hover {
+    color: aquamarine;
+  }
+  .Curriculum .SecciónCurriculumTwo .Autodidacta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+  }
+}
+
+/*# sourceMappingURL=Curriculum.css.map */

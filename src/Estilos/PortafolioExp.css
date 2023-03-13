@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Portafolio o Experiencia - <section> */
+  .Experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Experiencia .Portafolio-Experiencia {
+    padding: 20px;
+  }
+  .Experiencia .SecciónExperiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Experiencia .SecciónExperiencia img {
+    height: 15vw;
+    width: 15vw;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaOne img {
+    margin: 5%;
+    transition: 4s;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaOne:hover {
+    transform: scale(2);
+    transition: 4s;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaTwo img {
+    margin: 5%;
+    transition: 4s;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaTwo:hover {
+    transform: scale(2);
+    transition: 4s;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    transition: 4s;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaThree img {
+    height: 25%;
+    margin: 5%;
+  }
+  .Experiencia .SecciónExperiencia .ExperienciaThree:hover {
+    transform: scale(1.4);
+    transition: 4s;
+  }
+}
+
+/*# sourceMappingURL=PortafolioExp.css.map */

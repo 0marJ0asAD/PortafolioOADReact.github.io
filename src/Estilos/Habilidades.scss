@@ -1,0 +1,208 @@
+/* Responsive Design */
+
+@media (min-width: 768px){
+    .Habilidades{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .MisHabilidades{
+            padding: 20px;
+            b{
+                font-size: 2vw;
+                color: white;
+            }
+        }
+
+        .HabilidadesParte1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            b{
+                font-size: 2.5vw;
+            }
+            
+            img{
+                height: 15vw;
+                width: 15vw;
+            }
+
+            .MicrosoftWord{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                b{
+                    color: blue;
+                }
+            }
+
+            .MicrosoftExcel{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                b{
+                    color: green;
+                }
+            }
+
+            .MicrosoftPowerPoint{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                b{
+                    color: orange;
+                }
+                img{
+                    height: 13vw;
+                    width: 13vw;
+                }
+            }
+
+            .MicrosoftAccess{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                b{
+                    color: red;
+                }
+            }
+
+        }
+
+        .HabilidadesParte2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            b{
+                font-size: 2.5vw;
+            }
+            
+            img{
+                height: 15vw;
+                width: 15vw;
+            }
+
+            .HTML{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+                b{
+                    color: orangered;
+                }
+            }
+
+            .CSS{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: blue;
+                }
+
+            }
+
+            .SASS{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: rosybrown;
+                }
+
+            }
+
+            .JavaScript{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: yellow;
+                }
+
+            }
+
+        }
+
+        .HabilidadesParte3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            b{
+                font-size: 2.5vw;
+            }
+
+            img{
+                height: 15vw;
+                width: 15vw;
+            }
+
+            .React-JS{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: aqua;
+                }
+
+            }
+
+            .Python{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: rgb(0, 253, 169);
+                }
+
+            }
+
+            .SQL{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: rgb(255, 0, 255);
+                }
+
+            }
+
+            .PHP{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                b{
+                    color: rgb(74, 8, 180);
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 767px){}
